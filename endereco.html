@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de matrícula</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <main>
+        <section class="fornulario">
+        
+            <form action="" method="post">
+                <span>Informações da criança</span> <br>
+
+                <label for="inome">Nome completo</label> 
+                <input class="box" type="text" name="nome" id="inome" required>
+
+                <label for="idata">Data de nascimento</label>
+                <input class="box" type="date" name="data" id="idata" required>
+                
+                <label for="isexo"> sexo</label>
+                <select name="sexo" id="isexo" required>
+                    <option value="F">Feminino</option>
+                    <option value="M"> Masculino</option>
+                </select>
+
+                <label for="iinfo">Informações médicas</label>
+                <textarea name="info" id="iinfo" cols="5" rows="4"></textarea>
+
+                <label for="icert">Certidão de nascimento</label>
+                <input class="file" type="file" name="cert" id="icert">
+                
+            </form>
+
+            <div class="arrow_forward">
+                <a href="endereco.html">
+                    <span id="arrow-left" class="material-symbols-outlined">
+                        arrow_forward
+                        </span>
+                </a>
+                
+            </div>
+
+        </section>
+        <section class="imagem">
+            <div class="header">
+                <span><img src="image/Frame 48095957.svg" alt=""></span>
+                <span>Estrelas do Amanhã</span>
+            </div>
+
+            <div class="corpo">
+                <h1>Porque cada momento de <span>aprendizado</span> conta</h1>
+                <p>Inscreva seu filho em nossa escola e veja-o florescer em ambiente acolhedor,seguro e estimulante.</p>
+            </div>
+
+
+            <img src="image/pana.svg" alt="">
+        </section>
+    </main>
+    
+</body>
+</html>
